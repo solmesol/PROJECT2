@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		0F2A61D523A0F2FB00777673 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2A61D423A0F2FB00777673 /* AppDelegate.swift */; };
-		0F2A61D723A0F2FB00777673 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2A61D623A0F2FB00777673 /* ViewController.swift */; };
 		0F2A61DA23A0F2FB00777673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F2A61D823A0F2FB00777673 /* Main.storyboard */; };
 		0F2A61DC23A0F2FB00777673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F2A61DB23A0F2FB00777673 /* Assets.xcassets */; };
 		0F2A61DF23A0F2FB00777673 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F2A61DD23A0F2FB00777673 /* LaunchScreen.storyboard */; };
 		0F2A61EA23A0F2FB00777673 /* newprojectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2A61E923A0F2FB00777673 /* newprojectTests.swift */; };
 		0F2A61F523A0F2FB00777673 /* newprojectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2A61F423A0F2FB00777673 /* newprojectUITests.swift */; };
+		0F2A620323A0F32D00777673 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2A620223A0F32D00777673 /* ViewController.swift */; };
+		0F2A620523A0F83200777673 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2A620423A0F83200777673 /* SignupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		0F2A61D123A0F2FB00777673 /* newproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = newproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F2A61D423A0F2FB00777673 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0F2A61D623A0F2FB00777673 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0F2A61D923A0F2FB00777673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F2A61DB23A0F2FB00777673 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F2A61DE23A0F2FB00777673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		0F2A61F023A0F2FB00777673 /* newprojectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = newprojectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F2A61F423A0F2FB00777673 /* newprojectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newprojectUITests.swift; sourceTree = "<group>"; };
 		0F2A61F623A0F2FB00777673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F2A620223A0F32D00777673 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0F2A620423A0F83200777673 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				0F2A61D423A0F2FB00777673 /* AppDelegate.swift */,
-				0F2A61D623A0F2FB00777673 /* ViewController.swift */,
 				0F2A61D823A0F2FB00777673 /* Main.storyboard */,
 				0F2A61DB23A0F2FB00777673 /* Assets.xcassets */,
 				0F2A61DD23A0F2FB00777673 /* LaunchScreen.storyboard */,
 				0F2A61E023A0F2FB00777673 /* Info.plist */,
+				0F2A620223A0F32D00777673 /* ViewController.swift */,
+				0F2A620423A0F83200777673 /* SignupViewController.swift */,
 			);
 			path = newproject;
 			sourceTree = "<group>";
@@ -259,7 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F2A61D723A0F2FB00777673 /* ViewController.swift in Sources */,
+				0F2A620523A0F83200777673 /* SignupViewController.swift in Sources */,
+				0F2A620323A0F32D00777673 /* ViewController.swift in Sources */,
 				0F2A61D523A0F2FB00777673 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
